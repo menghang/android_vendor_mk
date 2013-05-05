@@ -93,10 +93,10 @@ PRODUCT_COPY_FILES += \
 # MoKee-specific init file
 PRODUCT_COPY_FILES += \
     vendor/mk/prebuilt/common/app/BaiduInputIME.apk:system/app/BaiduInputIME.apk \
-    vendor/mk/prebuilt/common/app/MoKeeMarket.apk:system/app/MoKeeMarket.apk \
     vendor/mk/prebuilt/common/lib/libkpencore.so:system/lib/libkpencore.so \
     vendor/mk/prebuilt/common/lib/librabjni-1.so:system/lib/librabjni-1.so \
-    vendor/mk/prebuilt/common/lib/libshare.so:system/lib/libshare.so
+    vendor/mk/prebuilt/common/lib/libshare.so:system/lib/libshare.so \
+#    vendor/mk/prebuilt/common/app/MoKeeMarket.apk:system/app/MoKeeMarket.apk \
 
 # Compcache/Zram support
 PRODUCT_COPY_FILES += \
@@ -167,8 +167,8 @@ PRODUCT_PACKAGES += \
 # Custom MoKee packages
 PRODUCT_PACKAGES += \
     MoKeeLauncher \
-    Notepad \
-    PermissionManager
+    PermissionManager \
+#    Notepad \
 
 # Mokee PhoneLoc
 PRODUCT_COPY_FILES +=  \
