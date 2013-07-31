@@ -101,8 +101,6 @@ PRODUCT_COPY_FILES += \
 # MoKee-specific init file
 PRODUCT_COPY_FILES += \
     vendor/mk/prebuilt/common/app/GooglePinYin.apk:system/app/GooglePinYin.apk \
-    vendor/mk/prebuilt/common/app/MoKeeMarket.apk:system/app/MoKeeMarket.apk \
-    vendor/mk/prebuilt/common/app/GameCenter.apk:system/app/GameCenter.apk \
     vendor/mk/prebuilt/common/lib/libgnustl_shared.so:system/lib/libgnustl_shared.so \
     vendor/mk/prebuilt/common/lib/libjni_delight.so:system/lib/libjni_delight.so \
     vendor/mk/prebuilt/common/lib/libjni_googlepinyinime_5.so:system/lib/libjni_googlepinyinime_5.so \
