@@ -139,7 +139,7 @@ include vendor/mk/config/themes_common.mk
 
 # Required MK packages
 PRODUCT_PACKAGES += \
-    Camera \
+    Focal \
     Development \
     Superuser \
     su
